@@ -1,0 +1,12 @@
+:root{
+    --primary-color: rgb(89, 89, 89);
+    --secondary-color: rgb(68, 114, 196);
+    --orange-color: rgb(255, 192, 0);
+    --mtn-color: rgb(255, 255, 0);
+    --moov-wave: rgb(91, 155, 213);
+    --body-color: rgb(242, 242, 242);
+    --footer-color: rgb(191, 191, 191);
+    --flash-color: rgb(217, 217, 217);
+    --background-serveur: rgb(226, 240, 217);
+    --color-serveur: rgb(56, 87, 35);
+}

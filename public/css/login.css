@@ -1,0 +1,29 @@
+@import url(./variables.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#wrapper{
+    background: var(--body-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.row{
+    background: #fff;
+    padding: 50px 100px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.row h2{
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}

@@ -1,0 +1,46 @@
+@import url(./variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--body-color);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    background: var(--primary-color);
+}
+
+header.container-fluid .row .col-lg-12 .logo{
+    width: 150px;
+    height: 100px;
+}
+
+header.container-fluid .row .col-lg-12 h2{
+    color: #fff;
+    font-size: 3rem;
+}
+
+header.container-fluid .row .col-lg-12 #profil{
+    width: 100px;
+    height: 100px;
+}
+
+header.container-fluid .row .col-lg-12 #profil .avatar{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+
+#content .col-lg-12 .row #sidebar{
+    background: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

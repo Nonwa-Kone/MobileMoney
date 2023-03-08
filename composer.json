@@ -1,0 +1,21 @@
+{
+    "name": "devnonwakone/mobile_money_project",
+    "description": "Application web de gestion des activités des agence mobile money",
+    "autoload": {
+        "psr-4": {
+            "Class\\": "Class/",
+            "Config\\": "Config/",
+            "Controllers\\": "Controllers/",
+            "Models\\": "Models/",
+            "Router\\": "Router/",
+            "Source\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NonwaKone",
+            "email": "konenonwa1998@gmail.com"
+        }
+    ],
+    "require": {}
+}
